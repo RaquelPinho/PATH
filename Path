@@ -1,0 +1,9 @@
+#
+#
+# $PATH is a enviromental variable
+#if you set up a software in the $PATH you can open it in all the directories
+#to see the PATH you use:
+echo $PATH
+#to set up a PATH including a specific directory or software 
+PATH=$PATH:/Path/to/directory
+#when you load a softare that is already in the $PATH in a slurm server you can see the path after you load software and it will show you the path to the software.
